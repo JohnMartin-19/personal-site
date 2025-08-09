@@ -8,19 +8,19 @@ export function SkillsSection() {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React/Next.js', level: 95, color: 'from-blue-400 to-blue-600' },
-        { name: 'TypeScript', level: 90, color: 'from-blue-500 to-blue-700' },
-        { name: 'Tailwind CSS', level: 88, color: 'from-cyan-400 to-cyan-600' },
-        { name: 'Vue.js', level: 75, color: 'from-green-400 to-green-600' }
+        { name: 'React.js', level: 85, color: 'from-blue-400 to-blue-600' },
+        { name: 'TypeScript', level: 70, color: 'from-blue-500 to-blue-700' },
+        { name: 'Tailwind CSS', level: 68, color: 'from-cyan-400 to-cyan-600' },
+        { name: 'Angular.js', level: 45, color: 'from-red-400 to-red-600' }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 90, color: 'from-green-500 to-green-700' },
+        { name: 'Django', level: 90, color: 'from-green-500 to-green-700' },
         { name: 'Python', level: 85, color: 'from-yellow-400 to-yellow-600' },
         { name: 'PostgreSQL', level: 80, color: 'from-indigo-400 to-indigo-600' },
-        { name: 'MongoDB', level: 78, color: 'from-green-600 to-green-800' }
+        { name: 'Django REST Framework', level: 85, color: 'from-green-600 to-green-800' }
       ]
     },
     {
@@ -29,7 +29,7 @@ export function SkillsSection() {
         { name: 'Git/GitHub', level: 92, color: 'from-gray-400 to-gray-600' },
         { name: 'Docker', level: 82, color: 'from-blue-600 to-blue-800' },
         { name: 'AWS', level: 75, color: 'from-orange-400 to-orange-600' },
-        { name: 'GraphQL', level: 70, color: 'from-pink-400 to-pink-600' }
+        { name: 'Kubernetes', level: 60, color: 'from-blue-400 to-blue-600' }
       ]
     }
   ]
@@ -45,7 +45,7 @@ export function SkillsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl text-white mb-6">Skills & Technologies</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-blue-400 mx-auto"></div>
           <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
             Here are the technologies and tools I use to bring ideas to life
           </p>
@@ -113,8 +113,8 @@ export function SkillsSection() {
           <h3 className="text-2xl text-white mb-8">Technologies I Work With</h3>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
             {[
-              'React', 'TypeScript', 'Node.js', 'Next.js', 'Python', 'PostgreSQL', 
-              'MongoDB', 'Docker', 'AWS', 'Git', 'Tailwind', 'GraphQL'
+              'React', 'TypeScript', 'Django','Django REST Framework', 'Python', 'PostgreSQL', 
+              'Docker', 'AWS', 'Git', 'Tailwind', 'Kafka','Kubernetes'
             ].map((tech, index) => (
               <motion.span
                 key={tech}

@@ -74,7 +74,7 @@ export function HeroSection() {
               Full-Stack Developer
             </span>
             {' '}specializing in{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-400">
               Modern Web Applications
             </span>
           </motion.div>

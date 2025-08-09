@@ -5,43 +5,46 @@ import { Card } from './ui/card'
 import { Button } from './ui/button'
 import { ExternalLink, Github } from 'lucide-react'
 import { ImageWithFallback } from './figma/ImageWithFallback'
-
+import epayments from '../assets/epayments.png'
+import mfarm from '../assets/m-farm.png'
+import ktickets from '../assets/k-tickets.png'
+import weki from '../assets/weki.png'
 export function ProjectsSection() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-      technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL'],
+      title: 'E-Revenue Management System',
+      description: 'A full-stack County Revenue Management System solution built with Django, JavaScript, and payments integration. Features include user authentication, revenue stream management, and real-time reports on dashboard.',
+      image: epayments,
+      technologies: ['HTML','Javascript', 'Django','DRF', 'Redis', 'PostgreSQL'],
       github: '#',
       live: '#',
       featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
-      technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+      title: 'M-FARM',
+      description: 'A web application that will provide access to e-markets from farmers across the country. Its a personal project that i used to learn Microservices architecture.',
+      image: mfarm,
+      technologies: ['React', 'Django', 'DRF', 'PostgreSQL','Redis','AWS','EKS','Docker','Terraform'],
       github: '#',
       live: '#',
       featured: true
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and data visualization using Chart.js.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop',
+      title: 'K-Tickets',
+      description: 'A monolithic Django E-Ticketing platform that allows organizations to register and create events, clients can purchase the event tickets and has some payment gateways such as mpesa and paypal.Built using Django, DRF,PostgreSQL, HTML&CSS then hosted it on an AWS ec2 instance.',
+      image: ktickets,
       technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'Tailwind'],
       github: '#',
       live: '#',
       featured: false
     },
     {
-      title: 'Social Media Analytics',
-      description: 'A dashboard for social media analytics with real-time data processing, custom visualizations, and automated reporting.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      technologies: ['Python', 'Django', 'React', 'D3.js'],
+      title: 'Weki Travels',
+      description: 'A travel agency website for Weki Travels.',
+      image:weki ,
+      technologies: ['React', 'TypeScript', 'Tailwind'],
       github: '#',
-      live: '#',
+      live: 'www.wekitravels.com',
       featured: false
     },
     {

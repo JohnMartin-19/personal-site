@@ -12,19 +12,19 @@ export function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.johnson@email.com',
-      href: 'mailto:alex.johnson@email.com'
+      value: 'johnnkonge2020@gmail.com',
+      href: 'mailto:johnnkonge2020@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+254768171426',
+      href: 'tel:+254768171426'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Nairobi, KE',
       href: '#'
     }
   ]
@@ -47,7 +47,7 @@ export function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl text-white mb-6">Get In Touch</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-blue-400 mx-auto"></div>
           <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
             I'm always interested in new opportunities and interesting projects. 
             Let's discuss how we can work together!
@@ -186,7 +186,7 @@ export function ContactSection() {
           className="border-t border-white/10 mt-16 pt-8 text-center"
         >
           <p className="text-gray-400">
-            © 2025 Alex Johnson. Designed &amp; Built with ❤️ using React and Tailwind CSS.
+            © 2025 John Mburu. Designed &amp; Built with ❤️ using React and Tailwind CSS.
           </p>
         </motion.div>
       </div>

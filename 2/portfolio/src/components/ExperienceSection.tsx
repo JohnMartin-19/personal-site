@@ -30,7 +30,7 @@ export function ExperienceSection() {
       location: 'Nairobi, KE',
       type: 'Full-time',
       website: 'https://epayments.tharakanithi.go.ke/',
-      description: 'Developed both frontend and backend systems for a multi-tenant Revenue Collection System . ',
+      description: 'Developed both frontend and backend systems for a multi-tenant County Management System . ',
       achievements: [
         'Wrote test cases for the legacy code that was existing in the codebase',
         'Built data intensive API endpoints for the system',
@@ -39,28 +39,29 @@ export function ExperienceSection() {
         'End-to-End Testing: Participated in testing E-Wallet and USSD services with senior and Android developers from a user perspective',
         'UI Development (Frontend): Enhanced UI features with a UI/UX designer to improve user experience and adapt to agile changes.'
       ],
-      technologies: ['HTML', 'Python', 'Django', 'Redis', 'DRF', 'Javascript']
+      technologies: ['HTML', 'Python', 'Django', 'Redis', 'DRF', 'Javascript','PostgreSQL']
     },
     {
-      company: 'Digital Agency Pro',
-      position: 'Frontend Developer',
-      period: '2019 - 2020',
-      location: 'New York, NY',
-      type: 'Full-time',
+      company: 'GIRWA Foundation',
+      position: 'Backend Developer',
+      period: '2025 - Present',
+      location: 'Remote',
+      type: 'Part-time',
       website: '#',
-      description: 'Specialized in creating high-performance websites and web applications for diverse clients including e-commerce, healthcare, and finance sectors.',
+      description: 'Specialized in creating high-performance web applications for GIRWA Foundation which is dedicated to empowering communities through sustainable development initiatives in education, healthcare, agriculture, and environmental conservation.',
       achievements: [
-        'Delivered 15+ client projects with 100% on-time completion',
-        'Improved website performance scores by average of 35%',
-        'Collaborated with design team to implement pixel-perfect UIs',
-        'Established frontend development best practices'
+        'Upgraded the legacy code for the system',
+        'Improved website authentication feature to using JWT Tokens.',
+        'Rate Limiting of login requests by user_id and ip_address.',
+        'Developing the core features for the MVP.'
+        
       ],
-      technologies: ['JavaScript', 'React', 'SCSS', 'Webpack', 'REST APIs', 'Git']
+      technologies: ['Python', 'Django',  'DRF', 'Docker', 'Redis', 'Jira','PostgreSQL', 'JWT']
     },
     {
       company: 'Freelance',
       position: 'Web Developer',
-      period: '2018 - 2019',
+      period: '2021 - Present',
       location: 'Various',
       type: 'Contract',
       website: '#',
@@ -71,7 +72,7 @@ export function ExperienceSection() {
         'Provided ongoing maintenance and support services',
         'Established long-term client relationships'
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'PHP', 'MySQL']
+      technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Django', 'PostgreSQL']
     }
   ]
 
@@ -86,7 +87,7 @@ export function ExperienceSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl text-white mb-6">Experience</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-blue-400 mx-auto"></div>
           <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
             My professional journey building innovative web solutions and leading development teams
           </p>
@@ -195,7 +196,7 @@ export function ExperienceSection() {
           <Card className="p-8 bg-gradient-to-r from-emerald-500/10 to-blue-500/10 border-emerald-500/20 max-w-2xl mx-auto">
             <h3 className="text-2xl text-white mb-4">Ready for New Challenges</h3>
             <p className="text-gray-300 leading-relaxed">
-              With 5+ years of experience building web applications, I'm passionate about creating 
+              With 2+ years of experience building web applications, I'm passionate about creating 
               innovative solutions and leading development teams to deliver exceptional user experiences.
             </p>
           </Card>
