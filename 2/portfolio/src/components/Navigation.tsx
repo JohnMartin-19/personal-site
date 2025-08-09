@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 export function Navigation() {
@@ -37,7 +37,7 @@ export function Navigation() {
             transition={{ delay: 0.2 }}
             className="text-white text-xl font-medium"
           >
-            &lt;DevPortfolio /&gt;
+            &lt;John Mburu /&gt;
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-8">

@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 import { Button } from './ui/button'
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
 
@@ -60,7 +60,7 @@ export function HeroSection() {
             transition={{ delay: 0.4 }}
             className="text-5xl md:text-7xl text-white mb-6"
           >
-            Alex Johnson
+            John Mburu
           </motion.h1>
           
           <motion.div
@@ -85,7 +85,7 @@ export function HeroSection() {
             transition={{ delay: 0.8 }}
             className="text-gray-400 text-lg max-w-2xl mx-auto mb-8"
           >
-            I craft exceptional digital experiences using cutting-edge technologies like React, Node.js, and TypeScript. 
+            I craft exceptional digital experiences using cutting-edge technologies like React(TypeScript) & Django. 
             Passionate about clean code, user experience, and bringing ideas to life.
           </motion.p>
           

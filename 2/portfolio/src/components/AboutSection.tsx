@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 import { Card } from './ui/card'
 import { Code, Coffee, Lightbulb, Users } from 'lucide-react'
 
