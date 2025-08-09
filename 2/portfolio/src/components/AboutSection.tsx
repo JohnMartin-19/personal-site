@@ -54,15 +54,16 @@ export function AboutSection() {
               Passionate about creating digital experiences that matter
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              With over 5 years of experience in web development, I've had the privilege of working with 
+              With over 2 years of experience in web development, I've had the privilege of working with 
               startups and established companies to bring their digital visions to life. My journey began 
+              back in 2020, after high school
               with a curiosity about how websites work, and it has evolved into a passion for creating 
               seamless, performant applications.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I specialize in React, Node.js, and modern JavaScript frameworks, but I'm always eager to 
+              I specialize in React, Django, and modern Python frameworks, but I'm always eager to 
               learn new technologies that can help me build better solutions. When I'm not coding, you'll 
-              find me contributing to open-source projects, writing technical articles, or exploring the 
+              find me hiking in the wild, hanging out with family and friends, or exploring the 
               latest in web technologies.
             </p>
             

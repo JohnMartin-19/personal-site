@@ -8,36 +8,38 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react'
 export function ExperienceSection() {
   const experiences = [
     {
-      company: 'TechCorp Solutions',
-      position: 'Senior Full-Stack Developer',
-      period: '2022 - Present',
-      location: 'San Francisco, CA',
-      type: 'Full-time',
+      company: 'JamboPay',
+      position: 'Software Developer - Intern',
+      period: '2023 May - 2023 August',
+      location: 'Nairobi, KE',
+      type: 'Internship',
       website: '#',
-      description: 'Leading development of scalable web applications and mentoring junior developers. Architected microservices infrastructure serving 1M+ users.',
+      description: 'During my internship period, I was tasked to learn Python, Django and Django REST Framework.',
       achievements: [
-        'Reduced application load time by 40% through optimization',
-        'Led a team of 5 developers on critical product features',
-        'Implemented CI/CD pipeline reducing deployment time by 60%',
-        'Migrated legacy systems to modern React/Node.js architecture'
+        'Learnt Python, Django and DRF',
+        'Created multiple projects with Django',
+        'Implemented API design and development using DRF',
+        
       ],
-      technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'Docker', 'PostgreSQL']
+      technologies: ['HTML', 'CSS', 'Javascript', 'Python', 'Django', 'DRF', 'SQLite']
     },
     {
-      company: 'StartupXYZ',
+      company: 'JamboPay',
       position: 'Full-Stack Developer',
-      period: '2020 - 2022',
-      location: 'Remote',
+      period: '2024 - 2025',
+      location: 'Nairobi, KE',
       type: 'Full-time',
-      website: '#',
-      description: 'Built the core platform from scratch as employee #3. Developed both frontend and backend systems for a rapidly growing SaaS platform.',
+      website: 'https://epayments.tharakanithi.go.ke/',
+      description: 'Developed both frontend and backend systems for a multi-tenant Revenue Collection System . ',
       achievements: [
-        'Developed MVP that acquired first 1000 users',
-        'Built real-time collaboration features using WebSockets',
-        'Implemented secure payment system with Stripe integration',
-        'Created responsive mobile-first design system'
+        'Wrote test cases for the legacy code that was existing in the codebase',
+        'Built data intensive API endpoints for the system',
+        'Database Modelling and Normalization: Collaborated with a senior developer to design and normalize a new modules database structure, presenting the final architecture to the CTO',
+        'Debugging: Fixed bugs in the County System to ensure proper functionality and meet user expectations.',
+        'End-to-End Testing: Participated in testing E-Wallet and USSD services with senior and Android developers from a user perspective',
+        'UI Development (Frontend): Enhanced UI features with a UI/UX designer to improve user experience and adapt to agile changes.'
       ],
-      technologies: ['Vue.js', 'Python', 'Django', 'Redis', 'Stripe', 'WebSocket']
+      technologies: ['HTML', 'Python', 'Django', 'Redis', 'DRF', 'Javascript']
     },
     {
       company: 'Digital Agency Pro',
