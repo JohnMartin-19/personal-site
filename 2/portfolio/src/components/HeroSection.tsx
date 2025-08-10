@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Button } from './ui/button'
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
 
+
 export function HeroSection() {
   const scrollToProjects = () => {
     const element = document.getElementById('projects')
@@ -14,7 +15,7 @@ export function HeroSection() {
 
   return (
     <section id="home" className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center relative overflow-hidden">
-      {/* Animated background elements */}
+      
       <div className="absolute inset-0">
         {[...Array(50)].map((_, i) => (
           <motion.div
@@ -104,9 +105,9 @@ export function HeroSection() {
             
             <div className="flex items-center space-x-4">
               {[
-                { icon: Github, href: '#' },
-                { icon: Linkedin, href: '#' },
-                { icon: Mail, href: '#' }
+                { icon: Github, href: 'https://github.com/JohnMartin-19/' },
+                { icon: Linkedin, href:'https://www.linkedin.com/in/john-m-015922206/' },
+                { icon: Mail, href:'mailto:johnnkonge2020@gmail.com' }
               ].map(({ icon: Icon, href }, index) => (
                 <motion.a
                   key={index}

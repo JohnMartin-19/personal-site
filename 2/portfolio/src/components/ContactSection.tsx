@@ -30,10 +30,10 @@ export function ContactSection() {
   ]
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href:'https://github.com/JohnMartin-19/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/john-m-015922206/', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: '#', label: 'Email' }
+    { icon: Mail, href: 'mailto:johnnkonge2020@gmail.com', label: 'Email' }
   ]
 
   return (

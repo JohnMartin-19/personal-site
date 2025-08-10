@@ -9,6 +9,8 @@ import epayments from '../assets/epayments.png'
 import mfarm from '../assets/m-farm.png'
 import ktickets from '../assets/k-tickets.png'
 import weki from '../assets/weki.png'
+import fuel from '../assets/Screenshot 2025-08-09 at 9.22.24 PM.png'
+
 export function ProjectsSection() {
   const projects = [
     {
@@ -17,7 +19,7 @@ export function ProjectsSection() {
       image: epayments,
       technologies: ['HTML','Javascript', 'Django','DRF', 'Redis', 'PostgreSQL'],
       github: '#',
-      live: '#',
+      live: 'https://epayments.tharakanithi.go.ke/',
       featured: true
     },
     {
@@ -33,7 +35,7 @@ export function ProjectsSection() {
       title: 'K-Tickets',
       description: 'A monolithic Django E-Ticketing platform that allows organizations to register and create events, clients can purchase the event tickets and has some payment gateways such as mpesa and paypal.Built using Django, DRF,PostgreSQL, HTML&CSS then hosted it on an AWS ec2 instance.',
       image: ktickets,
-      technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'Tailwind'],
+      technologies: ['Django', 'Javasacript', 'M-PESA'],
       github: '#',
       live: '#',
       featured: false
@@ -44,27 +46,27 @@ export function ProjectsSection() {
       image:weki ,
       technologies: ['React', 'TypeScript', 'Tailwind'],
       github: '#',
-      live: 'www.wekitravels.com',
-      featured: false
-    },
-    {
-      title: 'AI Chat Interface',
-      description: 'An intelligent chat interface with natural language processing, context awareness, and multi-language support.',
-      image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop',
-      technologies: ['React', 'OpenAI API', 'Node.js', 'WebSocket'],
-      github: '#',
       live: '#',
       featured: false
     },
     {
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website with smooth animations, dark theme, and optimized performance built with modern web technologies.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
-      technologies: ['Next.js', 'Framer Motion', 'Tailwind', 'TypeScript'],
+      title: 'Fuel Route Optimizer',
+      description: 'A minimalistic interface with Open Street Map, for drivers across the USA to calculate the most optimal route and the most efficient fuel station along their travel route, and multi-language support.',
+      image: fuel,
+      technologies: ['React', 'Open Street Map API', 'Django', 'DRF'],
       github: '#',
       live: '#',
       featured: false
-    }
+    },
+    // {
+    //   title: 'Portfolio Website',
+    //   description: 'A responsive portfolio website with smooth animations, dark theme, and optimized performance built with modern web technologies.',
+    //   image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
+    //   technologies: ['Next.js', 'Framer Motion', 'Tailwind', 'TypeScript'],
+    //   github: '#',
+    //   live: '#',
+    //   featured: false
+    // }
   ]
 
   const featuredProjects = projects.filter(p => p.featured)
@@ -225,8 +227,10 @@ export function ProjectsSection() {
           <Button 
             variant="outline" 
             className="border-emerald-500/50 text-emerald-400 hover:bg-emerald-500/10 px-8 py-3"
-          >
+          ><a href="https://github.com/JohnMartin-19/">
             View All Projects
+          </a>
+            
           </Button>
         </motion.div>
       </div>

@@ -74,7 +74,7 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="flex flex-wrap gap-3 mt-6"
             >
-              {['Problem Solver', 'Team Player', 'Quick Learner', 'Detail Oriented'].map((trait, index) => (
+              {['Problem Solver', 'Team Player', 'Quick Learner', 'Detail Oriented'].map((trait) => (
                 <span
                   key={trait}
                   className="px-4 py-2 bg-emerald-500/20 text-emerald-400 rounded-full text-sm border border-emerald-500/30"
