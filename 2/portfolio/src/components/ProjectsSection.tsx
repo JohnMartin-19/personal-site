@@ -27,7 +27,7 @@ export function ProjectsSection() {
       description: 'A web application that will provide access to e-markets from farmers across the country. Its a personal project that i used to learn Microservices architecture.',
       image: mfarm,
       technologies: ['React', 'Django', 'DRF', 'PostgreSQL','Redis','AWS','EKS','Docker','Terraform'],
-      github: '#',
+      github: 'https://github.com/JohnMartin-19/SAD-microservice-',
       live: '#',
       featured: true
     },
@@ -36,7 +36,7 @@ export function ProjectsSection() {
       description: 'A monolithic Django E-Ticketing platform that allows organizations to register and create events, clients can purchase the event tickets and has some payment gateways such as mpesa and paypal.Built using Django, DRF,PostgreSQL, HTML&CSS then hosted it on an AWS ec2 instance.',
       image: ktickets,
       technologies: ['Django', 'Javasacript', 'M-PESA'],
-      github: '#',
+      github: 'https://github.com/JohnMartin-19/dj-tickets',
       live: '#',
       featured: false
     },
@@ -46,7 +46,7 @@ export function ProjectsSection() {
       image:weki ,
       technologies: ['React', 'TypeScript', 'Tailwind'],
       github: '#',
-      live: '#',
+      live: 'wekitravels.com',
       featured: false
     },
     {
@@ -54,7 +54,7 @@ export function ProjectsSection() {
       description: 'A minimalistic interface with Open Street Map, for drivers across the USA to calculate the most optimal route and the most efficient fuel station along their travel route, and multi-language support.',
       image: fuel,
       technologies: ['React', 'Open Street Map API', 'Django', 'DRF'],
-      github: '#',
+      github: 'https://github.com/JohnMartin-19/spotter.ai.',
       live: '#',
       featured: false
     },
