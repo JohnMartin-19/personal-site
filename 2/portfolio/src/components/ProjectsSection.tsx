@@ -35,7 +35,7 @@ export function ProjectsSection() {
       title: 'K-Tickets',
       description: 'A monolithic Django E-Ticketing platform that allows organizations to register and create events, clients can purchase the event tickets and has some payment gateways such as mpesa and paypal.Built using Django, DRF,PostgreSQL, HTML&CSS then hosted it on an AWS ec2 instance.',
       image: ktickets,
-      technologies: ['Django', 'Javasacript', 'M-PESA'],
+      technologies: ['Django', 'Javascript', 'M-PESA'],
       github: 'https://github.com/JohnMartin-19/dj-tickets',
       live: '#',
       featured: false
