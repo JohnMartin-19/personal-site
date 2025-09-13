@@ -44,16 +44,16 @@ export function ExperienceSection() {
     {
       company: 'GIRWA Foundation',
       position: 'Backend Developer',
-      period: '2025 - Present',
+      period: '2025 - 2025',
       location: 'Remote',
-      type: 'Part-time',
+      type: 'Part-time(Volunteer)',
       website: '#',
       description: 'Specialized in creating high-performance web applications for GIRWA Foundation which is dedicated to empowering communities through sustainable development initiatives in education, healthcare, agriculture, and environmental conservation.',
       achievements: [
         'Upgraded the legacy code for the system',
         'Improved website authentication feature to using JWT Tokens.',
-        'Rate Limiting of login requests by user_id and ip_address.',
-        'Developing the core features for the MVP.'
+        'Rate Limiting of requests per IP Address.',
+        'Developing the core authentication features for the MVP.'
         
       ],
       technologies: ['Python', 'Django',  'DRF', 'Docker', 'Redis', 'Jira','PostgreSQL', 'JWT']
