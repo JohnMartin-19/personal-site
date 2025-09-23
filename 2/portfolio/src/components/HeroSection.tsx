@@ -62,6 +62,7 @@ export function HeroSection() {
             className="text-5xl md:text-7xl text-white mb-6"
           >
             John Mburu
+            
           </motion.h1>
           
           <motion.div
