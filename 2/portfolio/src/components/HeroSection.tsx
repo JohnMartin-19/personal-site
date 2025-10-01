@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Button } from './ui/button'
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
-
+import profile from '../assets/profile.jpg'
 
 export function HeroSection() {
   const scrollToProjects = () => {
@@ -15,6 +15,24 @@ export function HeroSection() {
 
   return (
     <section id="home" className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center relative overflow-hidden">
+      
+   
+      <motion.div
+        className="absolute top-10 right-10 z-20"
+        initial={{ opacity: 0, scale: 0.5, rotate: -90 }}
+        animate={{ opacity: 1, scale: 1, rotate: 0 }}
+        transition={{ duration: 0.8, delay: 0.5, type: 'spring', stiffness: 100 }}
+      >
+        <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-emerald-500 shadow-2xl shadow-emerald-500/50">
+          
+          <img
+            src={profile} 
+            alt="John Mburu's Profile"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </motion.div>
+      {/* ------------------------------------------------- */}
       
       <div className="absolute inset-0">
         {[...Array(50)].map((_, i) => (
@@ -72,11 +90,11 @@ export function HeroSection() {
             className="text-2xl md:text-4xl text-gray-300 mb-8"
           >
             I'm a{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 ">
               Full-Stack Developer
             </span>
             {' '}specializing in{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 ">
               Modern Web Applications
             </span>
           </motion.div>

@@ -9,6 +9,7 @@ import epayments from '../assets/epayments.png'
 import mfarm from '../assets/m-farm.png'
 import ktickets from '../assets/k-tickets.png'
 import weki from '../assets/weki.png'
+import dynamic from '../assets/Screenshot 2025-10-01 at 12.12.47 PM.png'
 import fuel from '../assets/Screenshot 2025-08-09 at 9.22.24 PM.png'
 import erp from '../assets/Screenshot 2025-09-13 at 6.57.13 AM.png'
 export function ProjectsSection() {
@@ -35,6 +36,15 @@ export function ProjectsSection() {
       title: 'M-FARM',
       description: 'A web application that will provide access to e-markets from farmers across the country. Its a personal project that I used to learn Microservices architecture.',
       image: mfarm,
+      technologies: ['React', 'Django', 'DRF', 'PostgreSQL','Redis','AWS','EKS','Docker','Terraform'],
+      github: 'https://github.com/JohnMartin-19/SAD-microservice-',
+      live: '#',
+      featured: true
+    },
+    {
+      title: 'Dynamic Onboarding Form System',
+      description: 'This Dynamic Onboarding Form System is a flexible and scalable platform designed to streamline the customer onboarding process for a financial services firm.',
+      image: dynamic,
       technologies: ['React', 'Django', 'DRF', 'PostgreSQL','Redis','AWS','EKS','Docker','Terraform'],
       github: 'https://github.com/JohnMartin-19/SAD-microservice-',
       live: '#',
